@@ -14,7 +14,7 @@ l = lakebtc.Lakebtc(access_key,private_key)
 result = l.get_ticker()
 print result
 
-#Oder Book
+#Order Book
 result = l.get_bcorderbook()
 print result
 
